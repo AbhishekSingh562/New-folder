@@ -1,0 +1,30 @@
+.div {
+  /* margin: 10px 0px; */
+  padding: 10px;
+  display: flex;
+}
+
+.datetime {
+  flex-basis: 30%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.note {
+  padding: 10px;
+  font-weight: 500;
+  font-size: larger;
+}
+
+p {
+  width: max-content;
+}
+
+@media screen and (max-width: 900px) {
+  .div{
+      padding:0px;
+      margin: 10px;
+      
+  }
+}

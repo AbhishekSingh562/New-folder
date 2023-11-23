@@ -1,0 +1,39 @@
+.div {
+    background-color: whitesmoke;
+    /* padding: 20px; */
+    height: 100vh;
+    /* width: 30vw; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0px 10px;
+}
+
+.btn {
+    background-color: black;
+    margin: 20px;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-weight: 900;
+    font-size: medium;
+    cursor: pointer;
+    width: max-content;
+}
+
+.btn:hover {
+    background-color: rgb(91, 91, 91);
+}
+
+@media screen and (max-width: 900px) {
+    .div{
+        width: 100vw;
+        display: none;
+        
+    }
+
+    .btn{
+        width: 80vw;
+    }
+  }

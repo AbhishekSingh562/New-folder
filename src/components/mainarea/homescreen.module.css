@@ -1,0 +1,13 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
+  background-color: #f6e0c3;
+}
+
+.gap {
+    margin: 10px;
+}

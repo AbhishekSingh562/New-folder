@@ -1,0 +1,62 @@
+.div {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  box-sizing: border-box;
+  
+}
+
+.header {
+  box-sizing: border-box;
+  background-color: rgb(224, 224, 224);
+  height: 10vh;
+}
+
+.notes {
+  box-sizing: border-box;
+  min-height: 60vh;
+  background-color: #f6e0c3;
+  padding: 20px;
+}
+
+.textboxdiv {
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  height: 30vh;
+  flex-direction: column;
+  background-color: rgb(214, 214, 214);
+}
+
+.textbox {
+  padding: 20px;
+  font-size: x-large;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+}
+
+.send {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  align-self: flex-end;
+  width: 80px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .div{
+      width: 100vw;
+      /* display: none; */
+      
+  }
+
+  .notes{
+    padding: 5px;
+  }
+}
